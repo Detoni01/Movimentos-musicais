@@ -84,13 +84,13 @@ section {
     /* Ajuste o tamanho conforme necessário */
 }
 
-#deftones.container {
+#deftones .container {
     display: flex;
-    align-items: right;
-    justify-content: right;
+    align-items: center;
+    justify-content: center;
     position: relative;
     z-index: 2;
-    /* Garante que o conteúdo fica acima das imagens do background */
+    min-height: 400px;
 }
 
 
